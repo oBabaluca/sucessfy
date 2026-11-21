@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width='device-width', initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/253d0ae39f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="assets/fav.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sucessfy</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="sidebar">
+        <div class="nav-logo">
+          <img src="assets/sucessfy.png" class="logo" />
+          <img src="assets/nome.png" class="nome" />
+        </div>
+        <div class="nav-library">
+          <h3>Seus Sucessos</h3>
+          <button><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="nav-playlist">
+          <h5>Crie sua primeira playlist</h5>
+          <p>É fácil, vamos te ajudar!</p>
+          <button>Criar Playlist</button>
+        </div>
+        <div class="nav-podcast">
+          <h5>Que tal seguir um Podcast?</h5>
+          <p>Avisaremos você sobre nossos episódios</p>
+          <button>Explore Podcasts</button>
+        </div>
+        <div>
+          <button class="nav-sucesso" id="sucesso">SUCESSO</button>
+        </div>
+        <div class="nav-footer">
+          <a href="#">Legal</a>
+          <a href="#">Centro de Privacidade</a>
+          <a href="#">Politica de Privacidade</a>
+          <a href="#">Cookies</a>
+          <a href="#">Sobre Anúncios</a>
+          <a href="#">Acessibilidade</a>
+        </div>
+        <button class="nav-lang-button">
+          <i class="fa-solid fa-language"></i>
+          Português - Brasil
+        </button>
+      </nav>
+      <main class="main">
+        <header class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input placeholder="Pesquise um sucesso" />
+        </header>
+        <nav class="topbar"></nav>
+        <section class="content">
+          <h2>Músicas em Alta</h2>
+          <div class="musics-grid"></div>
+          <!--Inserir dados com JS-->
+          <h2>Artistas Populares</h2>
+          <div class="artists-grid"></div>
+          <!--Inserir dados com JS-->
+          <h2>Álbuns Populares</h2>
+          <div class="albums-grid"></div>
+          <!--Inserir dados com JS-->
+        </section>
+      </main>
+    </div>
+    <div class="banner">
+      <div>
+        <h2>Curtindo o Projeto?</h2>
+        <p>
+          Agradeçemos sempre pela visita, buscando receber mais dicas e
+          ensinamentos para continuarmos evoluíndo no mundo da programação.
+          SUCESSO Ó O SUCESSO!
+        </p>
+      </div>
+      <button class="saiba-mais" id="abrirModal">Saiba Mais</button>
+    </div>
+    <div class="modal-overlay" id="modalSaibaMais">
+      <div class="modal">
+        <button class="modal-fechar" id="fecharModal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h2>Sobre o Projeto</h2>
+        <div class="modal-content">
+          <p>
+            O Sucessfy é um projeto desenvolvido com HTML, CSS e JavaScript,
+            inspirado em plataformas de streaming de música usando o Palhaço
+            Caçarola como imagem principal.
+          </p>
+          <p>
+            O objetivo do projeto é colocar em prática conceitos de
+            desenvolvimento web, organização de interfaces, manipulação do DOM e
+            criação de componentes dinâmicos.
+          </p>
+          <h3>O que utilizamos?</h3>
+          <p>
+            HTML para estruturar a página, CSS para criar toda a identidade
+            visual e JavaScript para gerar dinamicamente artistas, álbuns e
+            músicas.
+          </p>
+          <h3>Funcionalidades</h3>
+          <p>
+            O projeto possui cards de músicas, artistas e álbuns, botões
+            interativos, efeitos de hover, barra de pesquisa e outros elementos
+            inspirados em plataformas de streaming.
+          </p>
+
+          <p>
+            Este projeto continua em desenvolvimento e novas funcionalidades
+            podem ser adicionadas futuramente.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
